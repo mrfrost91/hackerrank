@@ -5,7 +5,6 @@ function birthday(s, d, m) {
         for (let j = i; j < m + i; j++) {
             sum += s[j];
         }
-        console.log(sum);
         if (sum === d) {
             result++;
         }
